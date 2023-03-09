@@ -19,8 +19,10 @@ A script to take team images from pit scouting, and upload them to a Cloudinary 
 11. (Optional) You can change the error notification settings if you like
 12. The trigger should now look like this, and you can hit "Save" in the bottom right
 ![Trigger image](./trigger.png)
-
-13. Congrats, you're all set!
+13. Ensure that your questions contain the correct identification words so that the script can find the question and its data
+    * The default id word for the image is: "photo"
+    * The default id word for the team number is: "team #"
+14. Congrats, you're all set!
 
 ## How to customize the script
 In your new file, you can change the onSubmit function to look out for different types of data
